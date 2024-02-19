@@ -24,7 +24,7 @@ public class MVCConfig implements WebMvcConfigurer {
         return resolver;
     }
     @Override
-    public void addResourceHandlers (ResourceHandlerRegistry registry){
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry
                 .addResourceHandler("/resources/**")
                 .addResourceLocations("/resources/");
